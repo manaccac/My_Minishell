@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   env_functions2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rpichon <rpichon@student.42lyon.fr>        +#+  +:+       +#+        */
+/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/25 14:32:20 by rpichon           #+#    #+#             */
-/*   Updated: 2020/06/16 11:58:56 by rpichon          ###   ########lyon.fr   */
+/*   Updated: 2020/12/08 10:40:34 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,8 @@ void		disp_env(t_shell *shell)
 	if (shell->line->av && *(shell->line->av) && *(shell->line->av) != ';' &&
 		!shell->is_export)
 	{
+		if (shell->line->av)
+			ft_printf("env: %s: No sush file or directory\n", shell->line->av);
 		errno = EINVAL;
 		return ;
 	}
