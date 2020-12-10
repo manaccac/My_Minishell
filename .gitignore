@@ -1,0 +1,8 @@
+minishell
+*.o
+*.a
+.vscode
+test
+test*
+obj/
+minishell-tester
