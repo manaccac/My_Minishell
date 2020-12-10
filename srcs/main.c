@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frfrey <frfrey@student.42lyon.fr>          +#+  +:+       +#+        */
+/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/18 09:57:04 by frfrey            #+#    #+#             */
-/*   Updated: 2020/06/04 09:49:43 by frfrey           ###   ########lyon.fr   */
+/*   Updated: 2020/12/10 10:03:01 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,11 @@ int		main(int ac, char **av, char **envp)
 	t_env		*env;
 	t_shell		shell;
 
+	if (ac >= 2)
+	{
+		ft_printf("just launch ./minishell\n");
+		return(127);
+	}
 	(void)ac;
 	(void)av;
 	shell.envp = envp;
