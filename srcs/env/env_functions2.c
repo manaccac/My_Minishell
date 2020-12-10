@@ -6,7 +6,7 @@
 /*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/25 14:32:20 by rpichon           #+#    #+#             */
-/*   Updated: 2020/12/08 10:40:34 by manaccac         ###   ########lyon.fr   */
+/*   Updated: 2020/12/10 09:01:39 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,8 @@ void		disp_env(t_shell *shell)
 				ft_printf("declare -x %s\n", begin->name);
 		else if (begin->val && *begin->val)
 			ft_printf("%s=%s\n", begin->name, begin->val);
+		else if (begin->val)
+			ft_printf("%s=\n", begin->name);
 		begin = begin->next;
 	}
 }
