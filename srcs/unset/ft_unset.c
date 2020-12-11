@@ -6,7 +6,7 @@
 /*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/02 11:11:00 by rpichon           #+#    #+#             */
-/*   Updated: 2020/12/11 08:15:17 by manaccac         ###   ########lyon.fr   */
+/*   Updated: 2020/12/11 09:48:58 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,8 @@ void	ft_unset(t_shell *shell)
 	errno = 0;
 	while (args[++i])
 	{
+		if (ft_strcmp("=", args[i]) == 0)
+			ft_printf("bash: unset: `=': not a valid identifier\n");
 		prev = shell->env;
 		prev = ft_while_unset(prev, actual, args, i);
 	}
