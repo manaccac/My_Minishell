@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cd.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rpichon <rpichon@student.42lyon.fr>        +#+  +:+       +#+        */
+/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/19 11:09:52 by juan              #+#    #+#             */
-/*   Updated: 2020/06/16 11:57:55 by rpichon          ###   ########lyon.fr   */
+/*   Updated: 2020/12/11 08:57:49 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,8 @@ void			ft_change_dir(t_shell *shell)
 
 	a = 0;
 	if (shell->line->av[0] == '~' || shell->line->av[0] == '\0')
-		a = chdir(ft_cd_tilde(shell->env));
+		a = chdir(ft_strjoin(ft_cd_tilde(shell->env),
+			*ft_split(shell->line->av, '~')));
 	else
 		a = chdir(shell->line->av);
 	if (a == -1)
