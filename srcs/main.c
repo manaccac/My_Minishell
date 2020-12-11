@@ -6,7 +6,7 @@
 /*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/18 09:57:04 by frfrey            #+#    #+#             */
-/*   Updated: 2020/12/11 08:18:20 by manaccac         ###   ########lyon.fr   */
+/*   Updated: 2020/12/11 09:24:17 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int		main(int ac, char **av, char **envp)
 	if (ac >= 2)
 	{
 		ft_printf("just launch ./minishell\n");
-		return(127);
+		return (127);
 	}
 	(void)ac;
 	(void)av;

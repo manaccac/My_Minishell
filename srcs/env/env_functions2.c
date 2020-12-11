@@ -6,11 +6,24 @@
 /*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/25 14:32:20 by rpichon           #+#    #+#             */
-/*   Updated: 2020/12/10 09:01:39 by manaccac         ###   ########lyon.fr   */
+/*   Updated: 2020/12/11 09:27:51 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/minishell.h"
+
+void		ft_env_while(t_env *begin, t_shell *shell)
+{
+	if (shell->is_export)
+		if (begin->val)
+			ft_printf("declare -x %s=\"%s\"\n", begin->name, begin->val);
+		else
+			ft_printf("declare -x %s\n", begin->name);
+	else if (begin->val && *begin->val)
+		ft_printf("%s=%s\n", begin->name, begin->val);
+	else if (begin->val)
+		ft_printf("%s=\n", begin->name);
+}
 
 void		disp_env(t_shell *shell)
 {
@@ -31,15 +44,7 @@ void		disp_env(t_shell *shell)
 	while (begin)
 	{
 		errno = 0;
-		if (shell->is_export)
-			if (begin->val)
-				ft_printf("declare -x %s=\"%s\"\n", begin->name, begin->val);
-			else
-				ft_printf("declare -x %s\n", begin->name);
-		else if (begin->val && *begin->val)
-			ft_printf("%s=%s\n", begin->name, begin->val);
-		else if (begin->val)
-			ft_printf("%s=\n", begin->name);
+		ft_env_while(begin, shell);
 		begin = begin->next;
 	}
 }
