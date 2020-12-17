@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_minishell.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frfrey <frfrey@student.42lyon.fr>          +#+  +:+       +#+        */
+/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/05/18 14:14:26 by frfrey            #+#    #+#             */
-/*   Updated: 2020/06/16 11:57:37 by frfrey           ###   ########lyon.fr   */
+/*   Created: 2020/12/17 14:29:23 by manaccac          #+#    #+#             */
+/*   Updated: 2020/12/17 14:29:24 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 

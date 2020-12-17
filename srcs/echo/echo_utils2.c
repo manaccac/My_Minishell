@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   echo_utils2.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frfrey <frfrey@student.42lyon.fr>          +#+  +:+       +#+        */
+/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/06/02 15:35:36 by frfrey            #+#    #+#             */
-/*   Updated: 2020/06/05 12:06:47 by frfrey           ###   ########lyon.fr   */
+/*   Created: 2020/12/17 14:30:22 by manaccac          #+#    #+#             */
+/*   Updated: 2020/12/17 14:30:22 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 

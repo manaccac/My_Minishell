@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   rm_quotes.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rpichon <rpichon@student.42lyon.fr>        +#+  +:+       +#+        */
+/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/06/08 11:03:08 by rpichon           #+#    #+#             */
-/*   Updated: 2020/06/11 13:29:00 by rpichon          ###   ########lyon.fr   */
+/*   Created: 2020/12/17 14:31:56 by manaccac          #+#    #+#             */
+/*   Updated: 2020/12/17 14:31:56 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 

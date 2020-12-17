@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   export_sort.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rpichon <rpichon@student.42lyon.fr>        +#+  +:+       +#+        */
+/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/25 14:32:20 by rpichon           #+#    #+#             */
-/*   Updated: 2020/06/02 18:14:18 by rpichon          ###   ########lyon.fr   */
+/*   Created: 2020/12/17 14:31:45 by manaccac          #+#    #+#             */
+/*   Updated: 2020/12/17 14:31:45 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 

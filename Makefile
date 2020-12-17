@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: frfrey <frfrey@student.42lyon.fr>          +#+  +:+       +#+         #
+#    By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/05/18 09:26:21 by frfrey            #+#    #+#              #
-#    Updated: 2020/06/17 14:50:22 by frfrey           ###   ########lyon.fr    #
+#    Created: 2020/12/17 14:33:41 by manaccac          #+#    #+#              #
+#    Updated: 2020/12/17 14:33:41 by manaccac         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 

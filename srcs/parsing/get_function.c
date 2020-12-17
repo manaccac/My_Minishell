@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_function.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rpichon <rpichon@student.42lyon.fr>        +#+  +:+       +#+        */
+/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/05/19 10:05:57 by frfrey            #+#    #+#             */
-/*   Updated: 2020/06/02 17:44:43 by rpichon          ###   ########lyon.fr   */
+/*   Created: 2020/12/17 14:32:21 by manaccac          #+#    #+#             */
+/*   Updated: 2020/12/17 14:32:22 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 

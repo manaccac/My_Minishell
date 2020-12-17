@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   remove_quote.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frfrey <frfrey@student.42lyon.fr>          +#+  +:+       +#+        */
+/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/05/19 15:15:51 by juan              #+#    #+#             */
-/*   Updated: 2020/06/17 14:48:25 by frfrey           ###   ########lyon.fr   */
+/*   Created: 2020/12/17 14:32:32 by manaccac          #+#    #+#             */
+/*   Updated: 2020/12/17 14:32:33 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 

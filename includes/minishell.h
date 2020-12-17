@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   minishell.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: frfrey <frfrey@student.42lyon.fr>          +#+  +:+       +#+        */
+/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/05/18 09:47:33 by frfrey            #+#    #+#             */
-/*   Updated: 2020/06/17 14:35:38 by frfrey           ###   ########lyon.fr   */
+/*   Created: 2020/12/17 14:34:13 by manaccac          #+#    #+#             */
+/*   Updated: 2020/12/17 14:34:14 by manaccac         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
