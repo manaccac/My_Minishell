@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim_free.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rpichon <rpichon@student.42lyon.fr>        +#+  +:+       +#+        */
+/*   By: jdel-ros <jdel-ros@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/03/23 10:32:48 by frfrey            #+#    #+#             */
-/*   Updated: 2020/06/02 19:43:13 by rpichon          ###   ########lyon.fr   */
+/*   Created: 2020/12/17 14:34:19 by jdel-ros          #+#    #+#             */
+/*   Updated: 2020/12/17 14:34:20 by jdel-ros         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 

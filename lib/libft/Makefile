@@ -3,13 +3,12 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: rpichon <rpichon@student.42lyon.fr>        +#+  +:+       +#+         #
+#    By: jdel-ros <jdel-ros@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/10/09 13:51:45 by rpichon           #+#    #+#              #
-#    Updated: 2020/06/04 15:29:30 by rpichon          ###   ########lyon.fr    #
+#    Created: 2020/12/17 14:34:54 by jdel-ros          #+#    #+#              #
+#    Updated: 2020/12/17 14:34:55 by jdel-ros         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
-
 
 INCLUDE 	= libft.h
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear_bonus.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rpichon <rpichon@student.le-101.fr>        +#+  +:+       +#+        */
+/*   By: jdel-ros <jdel-ros@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/11 18:23:54 by rpichon           #+#    #+#             */
-/*   Updated: 2020/02/17 15:53:04 by rpichon          ###   ########lyon.fr   */
+/*   Created: 2020/12/17 14:31:48 by jdel-ros          #+#    #+#             */
+/*   Updated: 2020/12/17 14:31:49 by jdel-ros         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 

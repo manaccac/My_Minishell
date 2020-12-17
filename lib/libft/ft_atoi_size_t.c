@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi_size_t.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rpichon <rpichon@student.42lyon.fr>        +#+  +:+       +#+        */
+/*   By: jdel-ros <jdel-ros@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/09 12:29:27 by rpichon           #+#    #+#             */
-/*   Updated: 2020/06/04 15:28:41 by rpichon          ###   ########lyon.fr   */
+/*   Created: 2020/12/17 14:30:16 by jdel-ros          #+#    #+#             */
+/*   Updated: 2020/12/17 14:30:17 by jdel-ros         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 

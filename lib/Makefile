@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: frfrey <frfrey@student.42lyon.fr>          +#+  +:+       +#+         #
+#    By: jdel-ros <jdel-ros@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/10/09 13:51:45 by rpichon           #+#    #+#              #
-#    Updated: 2020/05/19 14:50:07 by frfrey           ###   ########lyon.fr    #
+#    Created: 2020/12/17 14:35:51 by jdel-ros          #+#    #+#              #
+#    Updated: 2020/12/17 14:35:52 by jdel-ros         ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
