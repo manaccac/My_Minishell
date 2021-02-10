@@ -3,27 +3,38 @@
 /*                                                        :::      ::::::::   */
 /*   export.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
+/*   By: edepauw <edepauw@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/17 14:31:49 by manaccac          #+#    #+#             */
-/*   Updated: 2020/12/17 14:31:50 by manaccac         ###   ########lyon.fr   */
+/*   Updated: 2021/02/10 11:48:00 by edepauw          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/minishell.h"
+int		ft_isalum(int c)
+{
+	if (!((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') ||
+	 (c >= '0' && c <= '9') || c == '/'|| c == '.'|| c == ':'))
+		return (0);
+	return (1);
+}
 
 static int	check_arg(char *str)
 {
 	int i;
 
 	i = -1;
+	dprintf(1, "str: %s\n", str);
 	if (!ft_isalpha(*str) && !(*str == '\\' && ft_isalpha(*(str + 1))))
 		return (1);
 	while (str[++i])
 	{
 		if (str[i] == ' ' && str[i - 1] != '\\')
 			return (0);
-		if (!ft_isalnum(str[i]) && !(str[i] == '\\' && ft_isalnum(str[i + 1]))
+		dprintf(1, "i = %d\n", i);
+		dprintf(1, "!%d && !(%d && %d) && %d = %d\n", ft_isalum(str[i]), str[i] == '\\', ft_isalum(str[i + 1]), str[i] != '=', !(ft_isalum(str[i]) && !(str[i] == '\\' && ft_isalum(str[i + 1])))
+		&& str[i] != '=');
+		if (!ft_isalum(str[i]) && !(str[i] == '\\' && ft_isalum(str[i + 1]))
 		&& str[i] != '=')
 			return (1);
 	}

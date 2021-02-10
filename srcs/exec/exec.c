@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   exec.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: manaccac <manaccac@student.42lyon.fr>      +#+  +:+       +#+        */
+/*   By: edepauw <edepauw@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/17 14:31:03 by manaccac          #+#    #+#             */
-/*   Updated: 2020/12/17 14:31:03 by manaccac         ###   ########lyon.fr   */
+/*   Updated: 2021/02/10 12:45:13 by edepauw          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,10 @@ static void		ft_exec_cmd_two(t_shell *shell, char **path, char **argv)
 	char	*str;
 
 	i = 0;
+	if (!ft_strncmp(shell->line->function, "/bin/", 4))
+	{
+		execve(shell->line->function, argv, shell->envp);
+	}
 	while (path[i])
 	{
 		str = ft_strjoin(path[i], "/");
@@ -83,7 +87,9 @@ static void		ft_exec_cmd(t_shell *shell)
 	argv = ft_split_exec(tmp, " '\"");
 	free(tmp);
 	if (!ft_strncmp(shell->line->function, "./", 2))
+	{
 		ft_exec_prog1(shell, argv);
+	}
 	else
 	{
 		while (shell->env)
